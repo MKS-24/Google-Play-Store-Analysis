@@ -1,0 +1,24 @@
+PROJECT INSIGHTS: GOOGLE PLAY STORE APP ANALYSIS
+
+1.  DATA QUALITY & CLEANING
+    Data cleaning was a critical first step. The 'Rating' column had the most missing data (1,465 null values).
+    The 'Installs' and 'Price' columns required significant cleaning to remove non-numeric characters (like '+', ',', '$') before they could be used for numerical analysis.
+    An outlier was identified and removed (a rating of 19.0), which was skewing metrics.
+
+2.  APP ECOSYSTEM (FREE vs. PAID)
+    The Play Store is overwhelmingly dominated by free apps. The market consists of approximately 92.6% 'Free' apps and only 7.4% 'Paid' apps.
+
+3.  MARKET & CATEGORY DOMINANCE
+    By sheer volume, 'FAMILY' is the largest category, followed by 'GAME' and 'TOOLS'.
+    By user engagement, 'COMMUNICATION' apps have the highest average number of installs (approx. 65.9 million), indicating high market demand for these utilities.
+
+4.  APP RATING & PRICING ANALYSIS
+    Most apps are well-received. The rating distribution is left-skewed, with the majority of apps having high ratings between 4.0 and 4.7.
+    'EVENTS' is the highest-rated category on average (approx. 4.44 rating).
+    For paid apps, there is a very weak negative correlation (-0.02) between Price and Installs, suggesting that a higher price has a minimal (but negative) impact on the number of downloads.
+    Most paid apps cost less than $50. High-priced apps (like "I'm Rich" at ~$400) are significant outliers and do not show a clear correlation with ratings.
+
+5.  KEY OBSERVATIONS
+    While most paid apps have lower average ratings than free apps, some categories (like 'FINANCE' and 'PARENTING') show that their paid apps are, on average, rated higher than their free counterparts.
+    High install counts do not always guarantee high quality. For example, apps like 'My Telcel' have over 10 million installs but maintain a user rating below 3.5.
+    Duplicate app names (like 'Bubble Shooter' and 'Mcqueen Coloring pages') exist on the store with different install counts and ratings, suggesting different versions or publishers.
